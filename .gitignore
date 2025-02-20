@@ -1,0 +1,24 @@
+# Ignore the .env file containing environment variables
+.env
+
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore cache and logs
+/cache/
+*.log
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore node_modules if using Node.js for frontend
+/node_modules/
+
+# Ignore compiled assets
+/public/css/
+public/js/
